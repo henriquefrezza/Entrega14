@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fatec-ipi-sabado-diretivas-exercicio"
+    }
+  },
+  "defaultProject": "fatec-ipi-sabado-diretivas-exercicio",
+  "cli": {
+    "analytics": "1d324e4a-6e0d-4ad7-b153-2b93f4227aee"
+  }
 }

@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'fatec-ipi-sabado-diretivas-exercicio';
+  
+  curso = 'Analise de Sistemas';
+
+  cursos = [
+    {nome: "Análise de Sistemas"},
+    {nome: "Eventos"},
+    {nome: "Gestão de RH"}
+  ]
 }
